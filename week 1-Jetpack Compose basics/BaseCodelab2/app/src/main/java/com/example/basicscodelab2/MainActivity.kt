@@ -78,6 +78,7 @@ private fun Greetings(names: List<String> = List(1000) { "$it" }) {
 @Preview(showBackground = true, widthDp = 320, heightDp = 320)
 @Composable
 fun OnboardingPreview() {
+    ButtonDefaults
     BasicsCodelab2Theme {
         OnboardingScreen(onContinueClicked = {})
     }
